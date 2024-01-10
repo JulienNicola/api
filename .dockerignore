@@ -1,0 +1,10 @@
+.git*
+**/*.pyc
+.venv/
+EDA_new.ipynb
+exp.zip
+HomeCredit_columns_description.csv
+logo.png
+run.sh
+streamlit_app.py
+sum_plot.png
