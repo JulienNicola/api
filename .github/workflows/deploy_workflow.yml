@@ -43,7 +43,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          az resource update --resource-group article --name scm --namespace Microsoft.Web \
+          az resource update --resource-group DefaultResourceGroup-WEU --name scm --namespace Microsoft.Web \
           --resource-type basicPublishingCredentialsPolicies --parent sites/fastapiwebap \
           --set properties.allow=true
 
