@@ -23,7 +23,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: fastapiregistryjn.azurecr.io/samples/fast_image:${{ github.sha }}
+        tags: fastapiregistryjn.azurecr.io/samples/fast_image:latest
         file: ./Dockerfile
   
   deploy:
