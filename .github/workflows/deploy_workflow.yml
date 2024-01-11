@@ -54,4 +54,4 @@ jobs:
         app-name: 'fastapiwebap'
         slot-name: 'production'
         publish-profile: ${{ secrets.FASTAPIWEBAP_PUBLISH_PROFILE }}
-        images: 'pythonappsregistry.azurecr.io/builds/fast_image:${{ github.sha }}'
+        images: 'fastapiregistryjn.azurecr.io/builds/fast_image:${{ github.sha }}'
