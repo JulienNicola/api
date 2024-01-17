@@ -27,7 +27,7 @@ jobs:
         file: ./Dockerfile
   
     - name: Run unit test
-      run: python3 -u -m unittest test_predict.py
+      run: python3 -u -m unittest
 
   deploy:
     runs-on: ubuntu-latest
